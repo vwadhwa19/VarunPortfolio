@@ -1,0 +1,32 @@
+
+.about-header {
+    padding-top:30px;
+    text-align:center;
+    font-weight: bold;
+    color:black;
+}
+
+.about-code {
+    border-radius: 5px;
+    width: 850px;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 30px;
+    background: rgb(126, 122, 122);
+    height: 700px;
+    font-family: 'Monaco', 'Courier New';
+    text-align: left;
+    font-size: 14px;
+    color: white; 
+    margin-bottom: 200px;
+    margin-top: 40px;
+}
+
+.about-console {
+    width: 850px;
+    padding: 20px;
+    height: 710px;
+    margin: 0 auto;
+    background: #292626;
+    margin-bottom: 10px;
+}

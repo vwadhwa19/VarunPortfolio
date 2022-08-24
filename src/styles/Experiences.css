@@ -1,0 +1,43 @@
+.experiences-header {
+  padding-top:30px;
+  text-align:center;
+  font-weight: bold;
+  color:black;
+}
+
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25), 0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+  
+#experiences-description {
+  margin: 1.5em 0 2em 0;
+}
+ 
+.vertical-timeline{
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+  
+.vertical-timeline--animate{
+  margin-top: 40px;
+  margin-bottom: 150px;
+}
+
+.vertical-timeline--two-columns{
+  margin-top: 40px;   
+  margin-bottom: 150px;
+}
+
+.vertical-timeline-element-icon{
+  margin-left: 0.5;
+}
+
+/* icon position when screen size changes */
+@media (max-width: 1170px) {
+  .vertical-timeline--two-columns .vertical-timeline-element-icon {
+    width: 60px;
+    height: 60px;
+    margin-left: -10px;
+  }
+}

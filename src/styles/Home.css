@@ -1,0 +1,88 @@
+.jumbotron {
+    background-color: rgb(69, 122, 165);
+    border-radius: 1%; 
+    margin-top: -20px;
+}
+
+.home-nameHeader {
+    margin-top: -10px;
+    font-size:50px;
+    font-weight: bold;
+    color:black;
+    margin-left: 15px;
+}
+
+.home-typicalSubHeader {
+    font-size:30px;
+    color:black;
+    margin-left: 15px;
+}
+
+.home-paragraphSubHeader {
+    font-size:20px;
+    color:black;
+    margin-left: 15px;
+}
+
+.home-profileImage {
+    position: relative;
+    height:250px;
+    margin-top:-3%;
+    border-radius: 200px;
+    margin-left: 120px;
+
+}
+
+/* profile image position when screen size changes */
+@media (max-width: 767px) {
+    .home-profileImage {
+        position: relative;
+        height:250px;
+        margin-top:-3%;
+        border-radius: 200px;
+        margin-left: 120px;
+        left:-20%
+    }
+}
+
+
+.home-profileImage:hover {
+    transform: scale(1.1);
+}
+
+.row {
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+
+.home-githubImage{
+    width: 100px; 
+    height: 100px;
+}
+
+.home-githubImage:hover {
+    transform: scale(1.1);
+}
+
+.home-linkedinImage {
+    width: 100px; 
+    height: 100px;
+}
+
+.home-linkedinImage:hover {
+    transform: scale(1.1);
+}
+
+.home-emailImage {
+    width: 100px; 
+    height: 100px;
+}
+
+.home-emailImage:hover {
+    transform: scale(1.1);
+}
+
+.home-marqueeScroll{
+    position: relative;
+    margin-top: 60px;
+}

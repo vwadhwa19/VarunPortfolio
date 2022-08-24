@@ -1,0 +1,65 @@
+.contact-header {
+    padding-top:30px;
+    text-align:center;
+    font-weight: bold;
+    color:black;
+}
+
+.contact-formSubmitButton {
+    margin: 0 auto; 
+    display: block;
+    margin-top:40px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.contact-formBackground {
+    width:700px;
+    background-color: rgb(98, 151, 167);
+    border-radius: 10px;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 150px;
+}
+
+.contact-contactImage {
+    width: 500px; 
+    height: 100px;
+    border-radius: 10px;
+    margin: 0 auto; 
+    margin-top:40px;
+    display: block;
+    position: relative;
+    top: 40px;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-label{
+    font-weight: bold;
+}
+
+.form-control{
+    margin-bottom: 10px;
+}
+
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active .open>.dropdown-toggle.btn-secondary {
+    color: rgb(29, 28, 28);
+    background-color: #6C757d;
+    border-color: #6C757d; /*set the color you want here*/
+}
+
+.contact-modalHeader{
+    text-align: center;
+    margin-bottom:15px;
+}
+
+.contact-modalCloseButton {
+    margin: 0 auto; 
+    display: block;
+    margin-top:15px;
+    margin-bottom: 10px;
+    color: black;
+}
