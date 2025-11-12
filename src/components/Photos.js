@@ -51,12 +51,10 @@ function Photos() {
   const getImage = (imageSource) => {
     setTempImage(imageSource);
     setModal(true);
-    document.body.style.overflow = "hidden";
   };
 
   const handleModalClose = () => {
     setModal(false);
-    document.body.style.overflow = "unset";
   };
 
   return (
