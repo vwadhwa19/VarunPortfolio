@@ -1,0 +1,22 @@
+services:
+  client:
+    container_name: varunportfolio-client
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - server
+
+  server:
+    container_name: varunportfolio-server
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - NODE_ENV=production
+      - EMAIL=varun.wadhwa19@gmail.com
+      - PASSWORD=entsgrksjdkffncm
