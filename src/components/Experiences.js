@@ -1,4 +1,5 @@
 import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeline-component";
+import DeloitteImage from '../images/deloitte.jpg';
 import BoozAllenImage from '../images/boozallen.jpg';
 import NorthropGrummanImage from '../images/northropgrumman.jpg';
 import NRLImage from '../images/nrl.jpg';
@@ -7,17 +8,26 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import '../styles/Experiences.css';
 
 let timelineData = [
-  {
+    {
     id: 1,
+    company: "Deloitte",
+    role: "Project Delivery Specialist",
+    startenddate: "12/2023 to Present",
+    description: "In December 2023 I started working as a Project Delivery Specialist at Deloitte as a Software Engineer. I am working to develop a high visibility enterprise search application that is used for national security. Some of the technologies include React.js, Redux, Node.js, and ElasticSearch. I also help maintain other applications in production that are stable.",
+    link: "https://www.deloitte.com/",
+    icon: DeloitteImage,
+  },
+  {
+    id: 2,
     company: "Booz Allen Hamilton",
     role: "Software Engineer",
     startenddate: "9/2021 to Present",
-    description: "In September 2021 I started working as a Software Engineer at Booz Allen Hamilton. I am working as a full stack developer to develop web applications. I am working with both front end and back end programming languages using technolgies like React.js, Node.js, and PostgreSQL.",
+    description: "In September 2021 I started working as a Software Engineer at Booz Allen Hamilton. I worked as a full stack developer to develop web applications. I worked with both front end and back end programming languages using technolgies like React.js, Node.js, and PostgreSQL.",
     link: "https://www.boozallen.com/",
     icon: BoozAllenImage,
   },
   {
-    id: 2,
+    id: 3,
     company: "Northrop Grumman",
     role: "Pathways Software Engineer",
     startenddate: "8/2020 to 9/2021",
@@ -26,7 +36,7 @@ let timelineData = [
     icon: NorthropGrummanImage,
   },
   {
-    id: 3,
+    id: 4,
     company: "Northrop Grumman",
     role: "College Intern Technical (Software)",
     startenddate: "5/2019 to 8/2019",
@@ -35,7 +45,7 @@ let timelineData = [
     icon: NorthropGrummanImage,
   },
   {
-    id: 4,
+    id: 5,
     company: "Naval Research Laboratory",
     role: "Student Intern",
     startenddate: "6/2014 to 1/2017",
